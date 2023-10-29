@@ -63,7 +63,7 @@ The class diagram shows the main entities and their relationships.
 14. The system shall allow configuring travel promotions and offers. (Functional)  
 15. The system shall track and report on performance of affiliate channels. (Reporting)
 
-    * Non-Functional Requirement
+    *Non-Functional Requirement
 
 
 
