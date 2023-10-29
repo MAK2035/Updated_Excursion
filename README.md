@@ -27,7 +27,6 @@ Sequence diagrams capture workflows for major use cases:
 
 <img width="458" alt="Compare_prices_sequence" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/23e56139-b048-43a0-8275-54eb2237b1cc">
 
-
 <img width="431" alt="User_booking_sequence" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/d4b59400-99af-4f9f-b2f2-b63a1c037941">
 
 <img width="437" alt="Get_confirmation_sequence" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/e43f0b43-948e-4988-ba78-b3237e2cdd2c">
@@ -36,7 +35,8 @@ Sequence diagrams capture workflows for major use cases:
 ## Class Diagram
 The class diagram shows the main entities and their relationships.
 
-<img width="437" alt="Get_confirmation_sequence" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/128e83c6-267e-4a1a-a71f-15c5fd1b3b39">
+<img width="659" alt="ConceptualClassDiagram" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/e4b4923f-3862-4ed0-a798-2f1dbbf759d1">
+
 
 ## Limitations
 * The UML modeling tool used was functional but had some performance and usability issues that slowed down development. More refined validation and version control capabilities would help with reliability and change tracking.
