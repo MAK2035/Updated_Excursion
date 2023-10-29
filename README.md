@@ -37,6 +37,35 @@ The class diagram shows the main entities and their relationships.
 
 <img width="659" alt="ConceptualClassDiagram" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/e4b4923f-3862-4ed0-a798-2f1dbbf759d1">
 
+## User Requirements 
+ -As a user, I want to search for available excursions to easily find and explore excursions based on my preferences, dates, and destination.
+- As a user, I want to compare prices across travel products so I can get the best deals.
+- As a user, I want to complete bookings and make payments so I can confirm my travel plans.
+- As a travel agent, I want to book travel on behalf of clients over the phone or email.
+- As an affiliate partner, I want to promote travel offers on my platform and earn commissions. 
+- As a business manager, I want to monitor bookings and revenue for the portal.
+- As a customer support agent, I want to assist users with booking inquiries and issues
+
+## Software Requirements
+1. The system shall allow search based on destination, dates, travelers etc. (Functional)
+2. The system shall perform price comparison across multiple suppliers. (Functional)  
+3. The system shall integrate payment gateways for accepting user payments. (Integration)*
+4. The system shall send real-time booking info to suppliers via APIs. (Integration)
+5. The system shall automatically cancel unpaid bookings after timeout. (Functional)
+6. The system shall maintain audit logs of all transactions. (Non-functional)  
+7. The system shall have fraud analysis capabilities during bookings. (Security)
+8. The system shall encrypt sensitive user data during storage and transmission. (Security)*
+9. The system shall have provisions to scale-up resources during peak seasons. (Scalability)*
+10. The system shall integrate with external systems via APIs and real-time feeds. (Integration)*
+11. The system shall maintain 99.9% uptime for uninterrupted bookings. (Availability)*
+12. The system shall provide role-based access for porta users. (Security)* 
+13. The system shall have capabilities to recover from failures with minimal data loss. (Reliability)*
+14. The system shall allow configuring travel promotions and offers. (Functional)  
+15. The system shall track and report on performance of affiliate channels. (Reporting)
+
+    * Non-Functional Requirement
+
+
 
 ## Limitations
 * The UML modeling tool used was functional but had some performance and usability issues that slowed down development. More refined validation and version control capabilities would help with reliability and change tracking.
