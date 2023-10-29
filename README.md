@@ -1,7 +1,6 @@
 # Excursion App
 
 This project involved modeling the requirements for an excursion booking portal using UML diagrams.
-![App_logo](https://github.com/MAK2035/Updated_Excursion/assets/148695360/aaed0e66-ca56-4dcc-90cb-d446d62440ab)
 
 
 ## Overview
