@@ -1,0 +1,76 @@
+MicroServiceModel ExcursionBooking {
+	MicroService  {
+		ProvidedInterface comparePrices{
+			[Operation]
+			comparePrices
+		}
+		DomainModel  {
+		}
+	}
+	MicroService UserService {
+		ProvidedInterface userBooking{
+			[Operation]
+			userBooking
+		}
+		ProvidedInterface searchExcursions{
+			[Operation]
+			searchExcursions
+		}
+		ProvidedInterface getConfirmations{
+			[Operation]
+			getConfirmations
+		}
+		DomainModel UserService {
+		}
+	}
+	MicroService AffiliatePartnerService {
+		ProvidedInterface promoteOffers{
+			[Operation]
+			promoteOffers
+		}
+		DomainModel AffiliatePartnerService {
+			 Entity AffiliatePartner {
+				AffiliateID : String
+				AffiliatePassword : String
+				AffiliateEmail : String
+				[Refer]
+			}
+		}
+	}
+	MicroService SupportAgentService {
+		ProvidedInterface assistUsers{
+			[Operation]
+			assistUsers
+		}
+		DomainModel SupportAgentService {
+			 Entity TravelAgent {
+				TravelAgentID : String
+				TravelAgentPassword : String
+				TravelAgentEmail : String
+				[Refer]
+			}
+		}
+	}
+	MicroService TravelAgentService {
+		ProvidedInterface agentBooking{
+			[Operation]
+			agentBooking
+		}
+		DomainModel TravelAgentService {
+		}
+	}
+	MicroService ManagerService {
+		ProvidedInterface monitorBookings{
+			[Operation]
+			monitorBookings
+		}
+		DomainModel ManagerService {
+			 Entity User {
+				UserID : String
+				UserPassword : String
+				UserEmail : String
+				[Refer]
+			}
+		}
+	}
+}

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:designModel="http://www.example.org/designModel">
+  <designModel:Controller description="Controller" label="Controller"/>
+  <designModel:DesignModel>
+    <classdiagram name="ExcursionBooking">
+      <class name="User">
+        <operation name="addLinkOneToOne">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="ob">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="addLinkOneToMany">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="ob">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getUserID"/>
+        <operation name="setUserID">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getUserPassword"/>
+        <operation name="setUserPassword">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getUserEmail"/>
+        <operation name="setUserEmail">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <reference name="manager" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.3"/>
+        <attribute name="UserID">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+        <attribute name="UserPassword">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+        <attribute name="UserEmail">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+      </class>
+      <class name="TravelAgent">
+        <operation name="addLinkOneToOne">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="ob">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="addLinkOneToMany">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="ob">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getTravelAgentID"/>
+        <operation name="setTravelAgentID">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getTravelAgentPassword"/>
+        <operation name="setTravelAgentPassword">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getTravelAgentEmail"/>
+        <operation name="setTravelAgentEmail">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <reference name="manager" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.3"/>
+        <attribute name="TravelAgentID">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+        <attribute name="TravelAgentPassword">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+        <attribute name="TravelAgentEmail">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+      </class>
+      <class name="AffiliatePartner">
+        <operation name="addLinkOneToOne">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="ob">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="addLinkOneToMany">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="ob">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getAffiliateID"/>
+        <operation name="setAffiliateID">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getAffiliatePassword"/>
+        <operation name="setAffiliatePassword">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="getAffiliateEmail"/>
+        <operation name="setAffiliateEmail">
+          <parameter name="newValue">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <reference name="manager" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.3"/>
+        <attribute name="AffiliateID">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+        <attribute name="AffiliatePassword">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+        <attribute name="AffiliateEmail">
+          <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+        </attribute>
+      </class>
+      <class name="EntityManager">
+        <operation name="findObject">
+          <parameter name="ClassName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="condition">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="findObjects">
+          <parameter name="ClassName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="condition">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="createObject">
+          <parameter name="ClassName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="addObject">
+          <parameter name="ClassName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="releaseObject">
+          <parameter name="ClassName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="ob">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="Class"/>
+          </parameter>
+        </operation>
+        <operation name="findLinkedObject">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="condition">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <operation name="findLinkedObjects">
+          <parameter name="assoName">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+          <parameter name="condition">
+            <type xsi:type="designModel:PrimitiveTypeCS" name="String"/>
+          </parameter>
+        </operation>
+        <reference name="class" ismultiple="true" type="Association" class="/1/@classdiagram/@class.0"/>
+        <reference name="class" ismultiple="true" type="Association" class="/1/@classdiagram/@class.1"/>
+        <reference name="class" ismultiple="true" type="Association" class="/1/@classdiagram/@class.2"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.4"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.5"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.6"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.7"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.8"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.9"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.10"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.11"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.12"/>
+        <reference name="service" isReverseAssociation="true" type="Association" class="/1/@classdiagram/@class.13"/>
+      </class>
+      <class description="ExcursionBookingSystem" name="ExcursionBookingSystem">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="ThirdPartyServices" name="ThirdPartyServices">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="SearchExcursionsService" name="SearchExcursionsService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="ComparePricesService" name="ComparePricesService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="UserBookingService" name="UserBookingService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="GetConfirmationsService" name="GetConfirmationsService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="AgentBookingService" name="AgentBookingService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="PromoteOffersService" name="PromoteOffersService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="MonitorBookingsService" name="MonitorBookingsService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+      <class description="AssistUsersService" name="AssistUsersService">
+        <reference name="manager" type="Association" class="/1/@classdiagram/@class.3"/>
+      </class>
+    </classdiagram>
+    <sequencediagram name="ExcursionBooking"/>
+  </designModel:DesignModel>
+</xmi:XMI>

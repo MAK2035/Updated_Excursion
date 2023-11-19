@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:msModel="http://www.rm2pt.com/msModel/MsModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_XALcwIXPEe6fAYSteBshZg" selectedViews="_XBrRkIXPEe6fAYSteBshZg" version="14.5.1.202106111100">
+    <semanticResources>ExcursionBooking.msModel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_XBrRkIXPEe6fAYSteBshZg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XBrRk4XPEe6fAYSteBshZg" name="Conceptual Class Diagram" repPath="#_XBrRkYXPEe6fAYSteBshZg" changeId="0db26e64-c3b8-496d-a943-2e4c56072a06">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.0/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XB1ClIXPEe6fAYSteBshZg" name="Conceptual Class Diagram" repPath="#_XB1CkoXPEe6fAYSteBshZg" changeId="eb7cc618-2031-4496-8096-11f3f0caa384">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.1/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XB1CnYXPEe6fAYSteBshZg" name="Conceptual Class Diagram" repPath="#_XB1Cm4XPEe6fAYSteBshZg" changeId="9517afdb-ba03-4aa6-9cee-eae3da42206e">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XB-zq4XPEe6fAYSteBshZg" name="Conceptual Class Diagram" repPath="#_XB-zqYXPEe6fAYSteBshZg" changeId="13c9eef7-7afb-4813-b0e5-335ba7b429b8">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XCH9gIXPEe6fAYSteBshZg" name="Conceptual Class Diagram" repPath="#_XB-zy4XPEe6fAYSteBshZg" changeId="ad37a614-440f-4aae-aa11-92bbd567786c">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.4/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XCH9iYXPEe6fAYSteBshZg" name="Conceptual Class Diagram" repPath="#_XCH9h4XPEe6fAYSteBshZg" changeId="2e930046-4cfc-4b9b-8b7d-0398f08be74d">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XDBVYoXPEe6fAYSteBshZg" name="MicroServiceModel" repPath="#_XDBVYIXPEe6fAYSteBshZg" changeId="5640f1f9-2358-4e9f-98a6-4076dd76e536">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']"/>
+        <target xmi:type="msModel:MicroServiceModel" href="ExcursionBooking.msModel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Xer9soXPEe6fAYSteBshZg" name="nullDomainModel" repPath="#_Xer9sIXPEe6fAYSteBshZg" changeId="c6dd42f3-bced-4471-9c9e-ba5b7183e3ec">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.0/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XiZZAoXPEe6fAYSteBshZg" name="UserServiceDomainModel" repPath="#_XiZZAIXPEe6fAYSteBshZg" changeId="847479de-6675-4fba-bc8f-38a2479f9ad8">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.1/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XnFrwoXPEe6fAYSteBshZg" name="AffiliatePartnerServiceDomainModel" repPath="#_XnFrwIXPEe6fAYSteBshZg" changeId="334853cb-3af0-4e37-bee7-51bf35ecc77a">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Xo1YMoXPEe6fAYSteBshZg" name="SupportAgentServiceDomainModel" repPath="#_Xo1YMIXPEe6fAYSteBshZg" changeId="92765837-2157-4da9-b706-f9972c0cabb8">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XtenooXPEe6fAYSteBshZg" name="TravelAgentServiceDomainModel" repPath="#_XtenoIXPEe6fAYSteBshZg" changeId="9b323082-09aa-4dd4-9abb-22ce049744c6">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.4/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XxhaIoXPEe6fAYSteBshZg" name="ManagerServiceDomainModel" repPath="#_XxhaIIXPEe6fAYSteBshZg" changeId="49268306-1ae4-4d59-b32e-b27a870d75f5">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_XBrRkYXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XBrRlYXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XBrRloXPEe6fAYSteBshZg" type="Sirius" element="_XBrRkYXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XBrRl4XPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XB1CkIXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XB1CkYXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XBrRkoXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.0/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XB1CkoXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XB1CloXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XB1Cl4XPEe6fAYSteBshZg" type="Sirius" element="_XB1CkoXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XB1CmIXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XB1CmYXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XB1CmoXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XB1Ck4XPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.1/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XB1Cm4XPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XB1Cn4XPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XB1CoIXPEe6fAYSteBshZg" type="Sirius" element="_XB1Cm4XPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XB-zmYXPEe6fAYSteBshZg" type="2003" element="_XB1CooXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XB-znIXPEe6fAYSteBshZg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_XB-znYXPEe6fAYSteBshZg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_XB-zoIXPEe6fAYSteBshZg" type="3010" element="_XB-zkYXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XB-zoYXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XB-zooXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XB-zo4XPEe6fAYSteBshZg" type="3010" element="_XB-zk4XPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XB-zpIXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XB-zpYXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XB-zpoXPEe6fAYSteBshZg" type="3010" element="_XB-zlYXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XB-zp4XPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XB-zqIXPEe6fAYSteBshZg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XB-znoXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XB-zn4XPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XB-zmoXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XB-zm4XPEe6fAYSteBshZg" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XB1CoYXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XB-zl4XPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XB-zmIXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XB1CooXPEe6fAYSteBshZg" name="AffiliatePartner" width="10">
+      <target xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XB1Co4XPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XB-zkYXPEe6fAYSteBshZg" name="AffiliateID : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XB-zkoXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XB-zk4XPEe6fAYSteBshZg" name="AffiliatePassword : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XB-zlIXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XB-zlYXPEe6fAYSteBshZg" name="AffiliateEmail : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XB-zloXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XB1CnIXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XB-zqYXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XB-zrYXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XB-zroXPEe6fAYSteBshZg" type="Sirius" element="_XB-zqYXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XB-zu4XPEe6fAYSteBshZg" type="2003" element="_XB-zsIXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XB-zvoXPEe6fAYSteBshZg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_XB-zv4XPEe6fAYSteBshZg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_XB-zwoXPEe6fAYSteBshZg" type="3010" element="_XB-zs4XPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XB-zw4XPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XB-zxIXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XB-zxYXPEe6fAYSteBshZg" type="3010" element="_XB-ztYXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XB-zxoXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XB-zx4XPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XB-zyIXPEe6fAYSteBshZg" type="3010" element="_XB-zt4XPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XB-zyYXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XB-zyoXPEe6fAYSteBshZg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XB-zwIXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XB-zwYXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XB-zvIXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XB-zvYXPEe6fAYSteBshZg" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XB-zr4XPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XB-zuYXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XB-zuoXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XB-zsIXPEe6fAYSteBshZg" name="TravelAgent" width="10">
+      <target xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XB-zsYXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XB-zs4XPEe6fAYSteBshZg" name="TravelAgentID : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XB-ztIXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XB-ztYXPEe6fAYSteBshZg" name="TravelAgentPassword : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XB-ztoXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XB-zt4XPEe6fAYSteBshZg" name="TravelAgentEmail : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XB-zuIXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XB-zqoXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XB-zy4XPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XCH9goXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XCH9g4XPEe6fAYSteBshZg" type="Sirius" element="_XB-zy4XPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XCH9hIXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XCH9hYXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XCH9hoXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XB-zzIXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.4/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XCH9h4XPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XCH9i4XPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XCH9jIXPEe6fAYSteBshZg" type="Sirius" element="_XCH9h4XPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XCH9mYXPEe6fAYSteBshZg" type="2003" element="_XCH9joXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XCH9nIXPEe6fAYSteBshZg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_XCH9nYXPEe6fAYSteBshZg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_XCH9oIXPEe6fAYSteBshZg" type="3010" element="_XCH9kYXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XCH9oYXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XCH9ooXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XCH9o4XPEe6fAYSteBshZg" type="3010" element="_XCH9k4XPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XCH9pIXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XCH9pYXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XCH9poXPEe6fAYSteBshZg" type="3010" element="_XCH9lYXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XCH9p4XPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XCH9qIXPEe6fAYSteBshZg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XCH9noXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XCH9n4XPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XCH9moXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XCH9m4XPEe6fAYSteBshZg" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XCH9jYXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XCH9l4XPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XCH9mIXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XCH9joXPEe6fAYSteBshZg" name="User" width="10">
+      <target xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XCH9j4XPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XCH9kYXPEe6fAYSteBshZg" name="UserID : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XCH9koXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XCH9k4XPEe6fAYSteBshZg" name="UserPassword : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XCH9lIXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XCH9lYXPEe6fAYSteBshZg" name="UserEmail : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XCH9loXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XCH9iIXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XDBVYIXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XDBVZIXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XDBVZYXPEe6fAYSteBshZg" type="Sirius" element="_XDBVYIXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XEq7MoXPEe6fAYSteBshZg" type="2001" element="_XDLGYIXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7NYXPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7NoXPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7hIXPEe6fAYSteBshZg" type="3004" element="_XDLGYYXPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7hYXPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7hoXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7M4XPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7NIXPEe6fAYSteBshZg" x="91" y="154" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7N4XPEe6fAYSteBshZg" type="2001" element="_XDLGY4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7OoXPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7O4XPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7h4XPEe6fAYSteBshZg" type="3004" element="_XDLGZIXPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7iIXPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7iYXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7OIXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7OYXPEe6fAYSteBshZg" x="243" y="154" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7PIXPEe6fAYSteBshZg" type="2001" element="_XDLGZoXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7P4XPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7QIXPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7ioXPEe6fAYSteBshZg" type="3004" element="_XDLGZ4XPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7i4XPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7jIXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7PYXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7PoXPEe6fAYSteBshZg" x="301" y="91" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7QYXPEe6fAYSteBshZg" type="2001" element="_XDLGaYXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7RIXPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7RYXPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7jYXPEe6fAYSteBshZg" type="3004" element="_XDLGaoXPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7joXPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7j4XPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7QoXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7Q4XPEe6fAYSteBshZg" x="413" y="135" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7RoXPEe6fAYSteBshZg" type="2001" element="_XDLGbIXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7SYXPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7SoXPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7kIXPEe6fAYSteBshZg" type="3004" element="_XDLGbYXPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7kYXPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7koXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7R4XPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7SIXPEe6fAYSteBshZg" x="539" y="203" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7S4XPEe6fAYSteBshZg" type="2001" element="_XDLGb4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7ToXPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7T4XPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7k4XPEe6fAYSteBshZg" type="3004" element="_XDLGcIXPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7lIXPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7lYXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7TIXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7TYXPEe6fAYSteBshZg" x="791" y="116" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7UIXPEe6fAYSteBshZg" type="2001" element="_XDLGcoXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7U4XPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7VIXPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7loXPEe6fAYSteBshZg" type="3004" element="_XDLGc4XPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7l4XPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7mIXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7UYXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7UoXPEe6fAYSteBshZg" x="1029" y="184" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7VYXPEe6fAYSteBshZg" type="2001" element="_XDLGdYXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7WIXPEe6fAYSteBshZg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XEq7WYXPEe6fAYSteBshZg" x="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7mYXPEe6fAYSteBshZg" type="3004" element="_XDLGdoXPEe6fAYSteBshZg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7moXPEe6fAYSteBshZg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7m4XPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7VoXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7V4XPEe6fAYSteBshZg" x="1253" y="126" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7WoXPEe6fAYSteBshZg" type="2002" element="_XDLGeIXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7XYXPEe6fAYSteBshZg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XEq7XoXPEe6fAYSteBshZg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XEq7X4XPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XEq7YIXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7W4XPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7XIXPEe6fAYSteBshZg" x="37" y="308"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7YYXPEe6fAYSteBshZg" type="2002" element="_XDLGe4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7ZIXPEe6fAYSteBshZg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XEq7ZYXPEe6fAYSteBshZg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XEq7ZoXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XEq7Z4XPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7YoXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7Y4XPEe6fAYSteBshZg" x="262" y="308"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7aIXPEe6fAYSteBshZg" type="2002" element="_XDLGfoXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7a4XPEe6fAYSteBshZg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XEq7bIXPEe6fAYSteBshZg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XEq7bYXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XEq7boXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7aYXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7aoXPEe6fAYSteBshZg" x="459" y="308"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7b4XPEe6fAYSteBshZg" type="2002" element="_XDLGgYXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7coXPEe6fAYSteBshZg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XEq7c4XPEe6fAYSteBshZg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XEq7dIXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XEq7dYXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7cIXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7cYXPEe6fAYSteBshZg" x="718" y="308"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7doXPEe6fAYSteBshZg" type="2002" element="_XDLGhIXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7eYXPEe6fAYSteBshZg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XEq7eoXPEe6fAYSteBshZg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XEq7e4XPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XEq7fIXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7d4XPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7eIXPEe6fAYSteBshZg" x="963" y="308"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEq7fYXPEe6fAYSteBshZg" type="2002" element="_XDLGh4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7gIXPEe6fAYSteBshZg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XEq7gYXPEe6fAYSteBshZg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XEq7goXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XEq7g4XPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEq7foXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7f4XPEe6fAYSteBshZg" x="1194" y="308"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XDBVZoXPEe6fAYSteBshZg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq7nIXPEe6fAYSteBshZg" type="4001" element="_XEhKMIXPEe6fAYSteBshZg" source="_XEq7WoXPEe6fAYSteBshZg" target="_XEq7MoXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7oIXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7oYXPEe6fAYSteBshZg" x="1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7ooXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7o4XPEe6fAYSteBshZg" x="-2" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7pIXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7pYXPEe6fAYSteBshZg" x="1" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq7nYXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq7noXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq7n4XPEe6fAYSteBshZg" points="[0, 0, 11, 134]$[-11, -134, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7poXPEe6fAYSteBshZg" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7p4XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq7qIXPEe6fAYSteBshZg" type="4001" element="_XEqUJIXPEe6fAYSteBshZg" source="_XEq7YYXPEe6fAYSteBshZg" target="_XEq7N4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7rIXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7rYXPEe6fAYSteBshZg" x="-2" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7roXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7r4XPEe6fAYSteBshZg" x="5" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7sIXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7sYXPEe6fAYSteBshZg" x="2" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq7qYXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq7qoXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq7q4XPEe6fAYSteBshZg" points="[0, 0, 84, 134]$[-84, -134, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7soXPEe6fAYSteBshZg" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7s4XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq7tIXPEe6fAYSteBshZg" type="4001" element="_XEqUKYXPEe6fAYSteBshZg" source="_XEq7YYXPEe6fAYSteBshZg" target="_XEq7PIXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7uIXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7uYXPEe6fAYSteBshZg" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7uoXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7u4XPEe6fAYSteBshZg" x="-2" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7vIXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7vYXPEe6fAYSteBshZg" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq7tYXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq7toXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq7t4XPEe6fAYSteBshZg" points="[0, 0, 26, 197]$[-26, -197, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7voXPEe6fAYSteBshZg" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7v4XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq7wIXPEe6fAYSteBshZg" type="4001" element="_XEqULoXPEe6fAYSteBshZg" source="_XEq7YYXPEe6fAYSteBshZg" target="_XEq7QYXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq7xIXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7xYXPEe6fAYSteBshZg" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7xoXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7x4XPEe6fAYSteBshZg" x="-3" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7yIXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7yYXPEe6fAYSteBshZg" x="-3" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq7wYXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq7woXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq7w4XPEe6fAYSteBshZg" points="[0, 0, -86, 153]$[86, -153, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7yoXPEe6fAYSteBshZg" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7y4XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq7zIXPEe6fAYSteBshZg" type="4001" element="_XEqUM4XPEe6fAYSteBshZg" source="_XEq7aIXPEe6fAYSteBshZg" target="_XEq7RoXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq70IXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq70YXPEe6fAYSteBshZg" x="3" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq70oXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq704XPEe6fAYSteBshZg" x="-1" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq71IXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq71YXPEe6fAYSteBshZg" x="-3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq7zYXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq7zoXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq7z4XPEe6fAYSteBshZg" points="[0, 0, 9, 85]$[-9, -85, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq71oXPEe6fAYSteBshZg" id="(0.5025380710659898,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq714XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq72IXPEe6fAYSteBshZg" type="4001" element="_XEqUOIXPEe6fAYSteBshZg" source="_XEq7b4XPEe6fAYSteBshZg" target="_XEq7S4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq73IXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq73YXPEe6fAYSteBshZg" x="4" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq73oXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq734XPEe6fAYSteBshZg" x="-5" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq74IXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq74YXPEe6fAYSteBshZg" x="-3" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq72YXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq72oXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq724XPEe6fAYSteBshZg" points="[0, 0, 10, 172]$[-10, -172, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq74oXPEe6fAYSteBshZg" id="(0.5027027027027027,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq744XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq75IXPEe6fAYSteBshZg" type="4001" element="_XEqUPYXPEe6fAYSteBshZg" source="_XEq7doXPEe6fAYSteBshZg" target="_XEq7UIXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq76IXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq76YXPEe6fAYSteBshZg" x="3" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq76oXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq764XPEe6fAYSteBshZg" x="-4" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq77IXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq77YXPEe6fAYSteBshZg" x="-2" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq75YXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq75oXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq754XPEe6fAYSteBshZg" points="[0, 0, 9, 104]$[-9, -104, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq77oXPEe6fAYSteBshZg" id="(0.5059523809523809,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq774XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XEq78IXPEe6fAYSteBshZg" type="4001" element="_XEqUQoXPEe6fAYSteBshZg" source="_XEq7fYXPEe6fAYSteBshZg" target="_XEq7VYXPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XEq79IXPEe6fAYSteBshZg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq79YXPEe6fAYSteBshZg" x="2" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq79oXPEe6fAYSteBshZg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq794XPEe6fAYSteBshZg" x="-1" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XEq7-IXPEe6fAYSteBshZg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEq7-YXPEe6fAYSteBshZg" x="-4" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XEq78YXPEe6fAYSteBshZg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XEq78oXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XEq784XPEe6fAYSteBshZg" points="[0, 0, 6, 162]$[-6, -162, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7-oXPEe6fAYSteBshZg" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XEq7-4XPEe6fAYSteBshZg" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XEq7MIXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XEq7MYXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGYIXPEe6fAYSteBshZg" name="comparePrices" incomingEdges="_XEhKMIXPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.0/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.0/@interface.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGYYXPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGY4XPEe6fAYSteBshZg" name="userBooking" incomingEdges="_XEqUJIXPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.1/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.1/@interface.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGZIXPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGZoXPEe6fAYSteBshZg" name="searchExcursions" incomingEdges="_XEqUKYXPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.1/@interface.1"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.1/@interface.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGZ4XPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGaYXPEe6fAYSteBshZg" name="getConfirmations" incomingEdges="_XEqULoXPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.1/@interface.2"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.1/@interface.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGaoXPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGbIXPEe6fAYSteBshZg" name="promoteOffers" incomingEdges="_XEqUM4XPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.2/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.2/@interface.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGbYXPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGb4XPEe6fAYSteBshZg" name="assistUsers" incomingEdges="_XEqUOIXPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.3/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.3/@interface.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGcIXPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGcoXPEe6fAYSteBshZg" name="agentBooking" incomingEdges="_XEqUPYXPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.4/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.4/@interface.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGc4XPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XDLGdYXPEe6fAYSteBshZg" name="monitorBookings" incomingEdges="_XEqUQoXPEe6fAYSteBshZg" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.5/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="ExcursionBooking.msModel#//@microservice.5/@interface.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_XDLGdoXPEe6fAYSteBshZg" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XDLGeIXPEe6fAYSteBshZg" outgoingEdges="_XEhKMIXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.0"/>
+      <semanticElements xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XDLGeYXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XDLGe4XPEe6fAYSteBshZg" name="UserService" outgoingEdges="_XEqUJIXPEe6fAYSteBshZg _XEqUKYXPEe6fAYSteBshZg _XEqULoXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.1"/>
+      <semanticElements xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XDLGfIXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XDLGfoXPEe6fAYSteBshZg" name="AffiliatePartnerService" outgoingEdges="_XEqUM4XPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.2"/>
+      <semanticElements xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XDLGf4XPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XDLGgYXPEe6fAYSteBshZg" name="SupportAgentService" outgoingEdges="_XEqUOIXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.3"/>
+      <semanticElements xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XDLGgoXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XDLGhIXPEe6fAYSteBshZg" name="TravelAgentService" outgoingEdges="_XEqUPYXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.4"/>
+      <semanticElements xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XDLGhYXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XDLGh4XPEe6fAYSteBshZg" name="ManagerService" outgoingEdges="_XEqUQoXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.5"/>
+      <semanticElements xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XDLGiIXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEhKMIXPEe6fAYSteBshZg" sourceNode="_XDLGeIXPEe6fAYSteBshZg" targetNode="_XDLGYIXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUIIXPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqUIYXPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEqUJIXPEe6fAYSteBshZg" sourceNode="_XDLGe4XPEe6fAYSteBshZg" targetNode="_XDLGY4XPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUJYXPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqUJoXPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEqUKYXPEe6fAYSteBshZg" sourceNode="_XDLGe4XPEe6fAYSteBshZg" targetNode="_XDLGZoXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUKoXPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqUK4XPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEqULoXPEe6fAYSteBshZg" sourceNode="_XDLGe4XPEe6fAYSteBshZg" targetNode="_XDLGaYXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUL4XPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqUMIXPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEqUM4XPEe6fAYSteBshZg" sourceNode="_XDLGfoXPEe6fAYSteBshZg" targetNode="_XDLGbIXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUNIXPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqUNYXPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEqUOIXPEe6fAYSteBshZg" sourceNode="_XDLGgYXPEe6fAYSteBshZg" targetNode="_XDLGb4XPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUOYXPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqUOoXPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEqUPYXPEe6fAYSteBshZg" sourceNode="_XDLGhIXPEe6fAYSteBshZg" targetNode="_XDLGcoXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUPoXPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqUP4XPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XEqUQoXPEe6fAYSteBshZg" sourceNode="_XDLGh4XPEe6fAYSteBshZg" targetNode="_XDLGdYXPEe6fAYSteBshZg">
+      <target xmi:type="msModel:MicroService" href="ExcursionBooking.msModel#//@microservice.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XEqUQ4XPEe6fAYSteBshZg" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XEqURIXPEe6fAYSteBshZg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XDBVYYXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:MicroServiceModel" href="ExcursionBooking.msModel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_Xer9sIXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Xety4YXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Xety4oXPEe6fAYSteBshZg" type="Sirius" element="_Xer9sIXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Xety44XPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XevBAIXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XevBAYXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Xer9sYXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.0/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XiZZAIXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XiZZBIXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XiZZBYXPEe6fAYSteBshZg" type="Sirius" element="_XiZZAIXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XiZZBoXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XiZZB4XPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XiZZCIXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XiZZAYXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.1/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XnFrwIXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XnFrxIXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XnFrxYXPEe6fAYSteBshZg" type="Sirius" element="_XnFrwIXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XnFr0oXPEe6fAYSteBshZg" type="2003" element="_XnFrx4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XnFr1YXPEe6fAYSteBshZg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_XnFr1oXPEe6fAYSteBshZg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_XnFr2YXPEe6fAYSteBshZg" type="3010" element="_XnFryoXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XnFr2oXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XnFr24XPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XnFr3IXPEe6fAYSteBshZg" type="3010" element="_XnFrzIXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XnFr3YXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XnFr3oXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XnFr34XPEe6fAYSteBshZg" type="3010" element="_XnFrzoXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XnFr4IXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XnFr4YXPEe6fAYSteBshZg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XnFr14XPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XnFr2IXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XnFr04XPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XnFr1IXPEe6fAYSteBshZg" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XnFrxoXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XnFr0IXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XnFr0YXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XnFrx4XPEe6fAYSteBshZg" name="AffiliatePartner" width="10">
+      <target xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XnFryIXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XnFryoXPEe6fAYSteBshZg" name="AffiliateID : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XnFry4XPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XnFrzIXPEe6fAYSteBshZg" name="AffiliatePassword : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XnFrzYXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XnFrzoXPEe6fAYSteBshZg" name="AffiliateEmail : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XnFrz4XPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XnFrwYXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.2/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_Xo1YMIXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Xo1YNIXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Xo1YNYXPEe6fAYSteBshZg" type="Sirius" element="_Xo1YMIXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Xo_JOIXPEe6fAYSteBshZg" type="2003" element="_Xo1YN4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XpAXUIXPEe6fAYSteBshZg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_XpAXUYXPEe6fAYSteBshZg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_XpAXVIXPEe6fAYSteBshZg" type="3010" element="_Xo_JMIXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XpAXVYXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XpAXVoXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XpAXV4XPEe6fAYSteBshZg" type="3010" element="_Xo_JMoXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XpAXWIXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XpAXWYXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XpAXWoXPEe6fAYSteBshZg" type="3010" element="_Xo_JNIXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XpAXW4XPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XpAXXIXPEe6fAYSteBshZg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XpAXUoXPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XpAXU4XPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Xo_JOYXPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xo_JOoXPEe6fAYSteBshZg" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Xo1YNoXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Xo_JNoXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Xo_JN4XPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Xo1YN4XPEe6fAYSteBshZg" name="TravelAgent" width="10">
+      <target xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Xo1YOIXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xo_JMIXPEe6fAYSteBshZg" name="TravelAgentID : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Xo_JMYXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xo_JMoXPEe6fAYSteBshZg" name="TravelAgentPassword : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Xo_JM4XPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xo_JNIXPEe6fAYSteBshZg" name="TravelAgentEmail : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Xo_JNYXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Xo1YMYXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.3/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XtenoIXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XtenpIXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XtenpYXPEe6fAYSteBshZg" type="Sirius" element="_XtenoIXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XtenpoXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Xtenp4XPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XtenqIXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XtenoYXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.4/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XxhaIIXPEe6fAYSteBshZg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XxmSoIXPEe6fAYSteBshZg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XxmSoYXPEe6fAYSteBshZg" type="Sirius" element="_XxhaIIXPEe6fAYSteBshZg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XxmSroXPEe6fAYSteBshZg" type="2003" element="_XxmSo4XPEe6fAYSteBshZg">
+          <children xmi:type="notation:Node" xmi:id="_XxmSsYXPEe6fAYSteBshZg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_XxmSsoXPEe6fAYSteBshZg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_XxmStYXPEe6fAYSteBshZg" type="3010" element="_XxmSpoXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XxmStoXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XxmSt4XPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XxmSuIXPEe6fAYSteBshZg" type="3010" element="_XxmSqIXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XxmSuYXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XxmSuoXPEe6fAYSteBshZg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XxmSu4XPEe6fAYSteBshZg" type="3010" element="_XxmSqoXPEe6fAYSteBshZg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XxmSvIXPEe6fAYSteBshZg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XxmSvYXPEe6fAYSteBshZg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XxmSs4XPEe6fAYSteBshZg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XxmStIXPEe6fAYSteBshZg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XxmSr4XPEe6fAYSteBshZg" fontName="Segoe UI" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxmSsIXPEe6fAYSteBshZg" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XxmSooXPEe6fAYSteBshZg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XxmSrIXPEe6fAYSteBshZg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XxmSrYXPEe6fAYSteBshZg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XxmSo4XPEe6fAYSteBshZg" name="User" width="10">
+      <target xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XxmSpIXPEe6fAYSteBshZg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XxmSpoXPEe6fAYSteBshZg" name="UserID : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XxmSp4XPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XxmSqIXPEe6fAYSteBshZg" name="UserPassword : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XxmSqYXPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XxmSqoXPEe6fAYSteBshZg" name="UserEmail : String">
+        <target xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_XxmSq4XPEe6fAYSteBshZg" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XxhaIYXPEe6fAYSteBshZg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="ExcursionBooking.msModel#//@microservice.5/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

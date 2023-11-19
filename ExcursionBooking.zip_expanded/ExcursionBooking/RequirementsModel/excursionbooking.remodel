@@ -1,0 +1,292 @@
+UseCaseModel ExcursionBooking {
+
+	UC::searchExcursions include comparePrices definedBySSD(SearchExcursionsSSD) relatedService(SearchExcursionsService)
+	UC::comparePrices definedBySSD(ComparePricesSSD) relatedService(ComparePricesService)
+	UC::userBooking include getConfirmations definedBySSD(UserBookingSSD) relatedService(UserBookingService)
+	UC::getConfirmations definedBySSD(GetConfirmationsSSD) relatedService(GetConfirmationsService)
+	UC::agentBooking include getConfirmations definedBySSD(AgentBookingSSD) relatedService(AgentBookingService)
+	UC::promoteOffers include searchExcursions definedBySSD(PromoteOffersSSD) relatedService(PromoteOffersService)
+	UC::monitorBookings definedBySSD(MonitorBookingsSSD) relatedService(MonitorBookingsService)
+	UC::assistUsers include userBooking definedBySSD(AssistUsersSSD) relatedService(AssistUsersService)
+
+	Actor User {
+		searchExcursions
+		comparePrices
+		userBooking
+		getConfirmations
+	}
+
+	Actor TravelAgent {
+		agentBooking
+	}
+
+	Actor AffiliatePartner {
+		promoteOffers
+	}
+
+	Actor Manager {
+		monitorBookings
+	}
+
+	Actor SupportAgent {
+		assistUsers
+	}
+
+	Interaction SearchExcursionsSSD {
+
+		[Participants: User SearchExcursionsService]
+
+		CallMessage::SearchExcursionsSSDCallMessage1(search SearchExcursionsSSDCallMessage1SendingEnd -> SearchExcursionsSSDExecution1StartEnd)
+		ReturnMessage::SearchExcursionsSSDCallMessage1Return(SearchExcursionsSSDExecution1FinishEnd -> SearchExcursionsSSDCallMessage1ReturnReceivingEnd SearchExcursionsSSDCallMessage1)
+
+		Execution::SearchExcursionsSSDExecution1(SearchExcursionsService SearchExcursionsSSDExecution1StartEnd SearchExcursionsSSDExecution1FinishEnd)
+
+		MessageEnd::SearchExcursionsSSDCallMessage1SendingEnd(User SearchExcursionsSSDCallMessage1)
+		ExecutionEnd::SearchExcursionsSSDExecution1StartEnd(SearchExcursionsService SearchExcursionsSSDExecution1)
+		ExecutionEnd::SearchExcursionsSSDExecution1FinishEnd(SearchExcursionsService SearchExcursionsSSDExecution1)
+		MessageEnd::SearchExcursionsSSDCallMessage1ReturnReceivingEnd(User SearchExcursionsSSDCallMessage1Return)
+
+	}
+
+	Interaction ComparePricesSSD {
+
+		[Participants: User ComparePricesService]
+
+		CallMessage::ComparePricesSSDCallMessage1(choosenExcursions ComparePricesSSDCallMessage1SendingEnd -> ComparePricesSSDExecution1StartEnd)
+		ReturnMessage::ComparePricesSSDCallMessage1Return(ComparePricesSSDExecution1FinishEnd -> ComparePricesSSDCallMessage1ReturnReceivingEnd ComparePricesSSDCallMessage1)
+		CallMessage::ComparePricesSSDCallMessage3(compare ComparePricesSSDCallMessage3SendingEnd -> ComparePricesSSDExecution2StartEnd)
+		ReturnMessage::ComparePricesSSDCallMessage3Return(ComparePricesSSDExecution2FinishEnd -> ComparePricesSSDCallMessage3ReturnReceivingEnd ComparePricesSSDCallMessage3)
+
+		Execution::ComparePricesSSDExecution1(ComparePricesService ComparePricesSSDExecution1StartEnd ComparePricesSSDExecution1FinishEnd)
+		Execution::ComparePricesSSDExecution2(ComparePricesService ComparePricesSSDExecution2StartEnd ComparePricesSSDExecution2FinishEnd)
+
+		MessageEnd::ComparePricesSSDCallMessage1SendingEnd(User ComparePricesSSDCallMessage1)
+		ExecutionEnd::ComparePricesSSDExecution1StartEnd(ComparePricesService ComparePricesSSDExecution1)
+		ExecutionEnd::ComparePricesSSDExecution1FinishEnd(ComparePricesService ComparePricesSSDExecution1)
+		MessageEnd::ComparePricesSSDCallMessage1ReturnReceivingEnd(User ComparePricesSSDCallMessage1Return)
+		MessageEnd::ComparePricesSSDCallMessage3SendingEnd(User ComparePricesSSDCallMessage3)
+		ExecutionEnd::ComparePricesSSDExecution2StartEnd(ComparePricesService ComparePricesSSDExecution2)
+		ExecutionEnd::ComparePricesSSDExecution2FinishEnd(ComparePricesService ComparePricesSSDExecution2)
+		MessageEnd::ComparePricesSSDCallMessage3ReturnReceivingEnd(User ComparePricesSSDCallMessage3Return)
+
+	}
+
+	Interaction UserBookingSSD {
+
+		[Participants: User UserBookingService]
+
+		CallMessage::UserBookingSSDCallMessage1(userFinalizeBooking UserBookingSSDCallMessage1SendingEnd -> UserBookingSSDExecution1StartEnd)
+		ReturnMessage::UserBookingSSDCallMessage1Return(UserBookingSSDExecution1FinishEnd -> UserBookingSSDCallMessage1ReturnReceivingEnd UserBookingSSDCallMessage1)
+		CallMessage::UserBookingSSDCallMessage3(userFinalizePayment UserBookingSSDCallMessage3SendingEnd -> UserBookingSSDExecution2StartEnd)
+		ReturnMessage::UserBookingSSDCallMessage3Return(UserBookingSSDExecution2FinishEnd -> UserBookingSSDCallMessage3ReturnReceivingEnd UserBookingSSDCallMessage3)
+
+		Execution::UserBookingSSDExecution1(UserBookingService UserBookingSSDExecution1StartEnd UserBookingSSDExecution1FinishEnd)
+		Execution::UserBookingSSDExecution2(UserBookingService UserBookingSSDExecution2StartEnd UserBookingSSDExecution2FinishEnd)
+
+		MessageEnd::UserBookingSSDCallMessage1SendingEnd(User UserBookingSSDCallMessage1)
+		ExecutionEnd::UserBookingSSDExecution1StartEnd(UserBookingService UserBookingSSDExecution1)
+		ExecutionEnd::UserBookingSSDExecution1FinishEnd(UserBookingService UserBookingSSDExecution1)
+		MessageEnd::UserBookingSSDCallMessage1ReturnReceivingEnd(User UserBookingSSDCallMessage1Return)
+		MessageEnd::UserBookingSSDCallMessage3SendingEnd(User UserBookingSSDCallMessage3)
+		ExecutionEnd::UserBookingSSDExecution2StartEnd(UserBookingService UserBookingSSDExecution2)
+		ExecutionEnd::UserBookingSSDExecution2FinishEnd(UserBookingService UserBookingSSDExecution2)
+		MessageEnd::UserBookingSSDCallMessage3ReturnReceivingEnd(User UserBookingSSDCallMessage3Return)
+
+	}
+
+	Interaction GetConfirmationsSSD {
+
+		[Participants: User GetConfirmationsService]
+
+		CallMessage::GetConfirmationsSSDCallMessage1(getConfirmations GetConfirmationsSSDCallMessage1SendingEnd -> GetConfirmationsSSDExecution1StartEnd)
+		ReturnMessage::GetConfirmationsSSDCallMessage1Return(GetConfirmationsSSDExecution1FinishEnd -> GetConfirmationsSSDCallMessage1ReturnReceivingEnd GetConfirmationsSSDCallMessage1)
+		CallMessage::GetConfirmationsSSDCallMessage3(reminderEmail GetConfirmationsSSDCallMessage3SendingEnd -> GetConfirmationsSSDExecution2StartEnd)
+		ReturnMessage::GetConfirmationsSSDCallMessage3Return(GetConfirmationsSSDExecution2FinishEnd -> GetConfirmationsSSDCallMessage3ReturnReceivingEnd GetConfirmationsSSDCallMessage3)
+
+		Execution::GetConfirmationsSSDExecution1(GetConfirmationsService GetConfirmationsSSDExecution1StartEnd GetConfirmationsSSDExecution1FinishEnd)
+		Execution::GetConfirmationsSSDExecution2(GetConfirmationsService GetConfirmationsSSDExecution2StartEnd GetConfirmationsSSDExecution2FinishEnd)
+
+		MessageEnd::GetConfirmationsSSDCallMessage1SendingEnd(User GetConfirmationsSSDCallMessage1)
+		ExecutionEnd::GetConfirmationsSSDExecution1StartEnd(GetConfirmationsService GetConfirmationsSSDExecution1)
+		ExecutionEnd::GetConfirmationsSSDExecution1FinishEnd(GetConfirmationsService GetConfirmationsSSDExecution1)
+		MessageEnd::GetConfirmationsSSDCallMessage1ReturnReceivingEnd(User GetConfirmationsSSDCallMessage1Return)
+		MessageEnd::GetConfirmationsSSDCallMessage3SendingEnd(User GetConfirmationsSSDCallMessage3)
+		ExecutionEnd::GetConfirmationsSSDExecution2StartEnd(GetConfirmationsService GetConfirmationsSSDExecution2)
+		ExecutionEnd::GetConfirmationsSSDExecution2FinishEnd(GetConfirmationsService GetConfirmationsSSDExecution2)
+		MessageEnd::GetConfirmationsSSDCallMessage3ReturnReceivingEnd(User GetConfirmationsSSDCallMessage3Return)
+
+	}
+
+	Interaction AgentBookingSSD {
+
+		[Participants: TravelAgent AgentBookingService]
+
+		CallMessage::AgentBookingSSDCallMessage1(agentBook AgentBookingSSDCallMessage1SendingEnd -> AgentBookingSSDExecution1StartEnd)
+		ReturnMessage::AgentBookingSSDCallMessage1Return(AgentBookingSSDExecution1FinishEnd -> AgentBookingSSDCallMessage1ReturnReceivingEnd AgentBookingSSDCallMessage1)
+
+		Execution::AgentBookingSSDExecution1(AgentBookingService AgentBookingSSDExecution1StartEnd AgentBookingSSDExecution1FinishEnd)
+
+		MessageEnd::AgentBookingSSDCallMessage1SendingEnd(TravelAgent AgentBookingSSDCallMessage1)
+		ExecutionEnd::AgentBookingSSDExecution1StartEnd(AgentBookingService AgentBookingSSDExecution1)
+		ExecutionEnd::AgentBookingSSDExecution1FinishEnd(AgentBookingService AgentBookingSSDExecution1)
+		MessageEnd::AgentBookingSSDCallMessage1ReturnReceivingEnd(TravelAgent AgentBookingSSDCallMessage1Return)
+
+	}
+
+	Interaction PromoteOffersSSD {
+
+		[Participants: AffiliatePartner PromoteOffersService]
+
+		CallMessage::PromoteOffersSSDCallMessage1(offer PromoteOffersSSDCallMessage1SendingEnd -> PromoteOffersSSDExecution1StartEnd)
+		ReturnMessage::PromoteOffersSSDCallMessage1Return(PromoteOffersSSDExecution1FinishEnd -> PromoteOffersSSDCallMessage1ReturnReceivingEnd PromoteOffersSSDCallMessage1)
+
+		Execution::PromoteOffersSSDExecution1(PromoteOffersService PromoteOffersSSDExecution1StartEnd PromoteOffersSSDExecution1FinishEnd)
+
+		MessageEnd::PromoteOffersSSDCallMessage1SendingEnd(AffiliatePartner PromoteOffersSSDCallMessage1)
+		ExecutionEnd::PromoteOffersSSDExecution1StartEnd(PromoteOffersService PromoteOffersSSDExecution1)
+		ExecutionEnd::PromoteOffersSSDExecution1FinishEnd(PromoteOffersService PromoteOffersSSDExecution1)
+		MessageEnd::PromoteOffersSSDCallMessage1ReturnReceivingEnd(AffiliatePartner PromoteOffersSSDCallMessage1Return)
+
+	}
+
+	Interaction MonitorBookingsSSD {
+
+		[Participants: Manager MonitorBookingsService]
+
+		CallMessage::MonitorBookingsSSDCallMessage1(bookingReports MonitorBookingsSSDCallMessage1SendingEnd -> MonitorBookingsSSDExecution1StartEnd)
+		ReturnMessage::MonitorBookingsSSDCallMessage1Return(MonitorBookingsSSDExecution1FinishEnd -> MonitorBookingsSSDCallMessage1ReturnReceivingEnd MonitorBookingsSSDCallMessage1)
+		CallMessage::MonitorBookingsSSDCallMessage3(revenueReports MonitorBookingsSSDCallMessage3SendingEnd -> MonitorBookingsSSDExecution2StartEnd)
+		ReturnMessage::MonitorBookingsSSDCallMessage3Return(MonitorBookingsSSDExecution2FinishEnd -> MonitorBookingsSSDCallMessage3ReturnReceivingEnd MonitorBookingsSSDCallMessage3)
+		CallMessage::MonitorBookingsSSDCallMessage5(trafficReports MonitorBookingsSSDCallMessage5SendingEnd -> MonitorBookingsSSDExecution3StartEnd)
+		ReturnMessage::MonitorBookingsSSDCallMessage5Return(MonitorBookingsSSDExecution3FinishEnd -> MonitorBookingsSSDCallMessage5ReturnReceivingEnd MonitorBookingsSSDCallMessage5)
+
+		Execution::MonitorBookingsSSDExecution1(MonitorBookingsService MonitorBookingsSSDExecution1StartEnd MonitorBookingsSSDExecution1FinishEnd)
+		Execution::MonitorBookingsSSDExecution2(MonitorBookingsService MonitorBookingsSSDExecution2StartEnd MonitorBookingsSSDExecution2FinishEnd)
+		Execution::MonitorBookingsSSDExecution3(MonitorBookingsService MonitorBookingsSSDExecution3StartEnd MonitorBookingsSSDExecution3FinishEnd)
+
+		MessageEnd::MonitorBookingsSSDCallMessage1SendingEnd(Manager MonitorBookingsSSDCallMessage1)
+		ExecutionEnd::MonitorBookingsSSDExecution1StartEnd(MonitorBookingsService MonitorBookingsSSDExecution1)
+		ExecutionEnd::MonitorBookingsSSDExecution1FinishEnd(MonitorBookingsService MonitorBookingsSSDExecution1)
+		MessageEnd::MonitorBookingsSSDCallMessage1ReturnReceivingEnd(Manager MonitorBookingsSSDCallMessage1Return)
+		MessageEnd::MonitorBookingsSSDCallMessage3SendingEnd(Manager MonitorBookingsSSDCallMessage3)
+		ExecutionEnd::MonitorBookingsSSDExecution2StartEnd(MonitorBookingsService MonitorBookingsSSDExecution2)
+		ExecutionEnd::MonitorBookingsSSDExecution2FinishEnd(MonitorBookingsService MonitorBookingsSSDExecution2)
+		MessageEnd::MonitorBookingsSSDCallMessage3ReturnReceivingEnd(Manager MonitorBookingsSSDCallMessage3Return)
+		MessageEnd::MonitorBookingsSSDCallMessage5SendingEnd(Manager MonitorBookingsSSDCallMessage5)
+		ExecutionEnd::MonitorBookingsSSDExecution3StartEnd(MonitorBookingsService MonitorBookingsSSDExecution3)
+		ExecutionEnd::MonitorBookingsSSDExecution3FinishEnd(MonitorBookingsService MonitorBookingsSSDExecution3)
+		MessageEnd::MonitorBookingsSSDCallMessage5ReturnReceivingEnd(Manager MonitorBookingsSSDCallMessage5Return)
+
+	}
+
+	Interaction AssistUsersSSD {
+
+		[Participants: SupportAgent AssistUsersService]
+
+		CallMessage::AssistUsersSSDCallMessage1(callerDetails AssistUsersSSDCallMessage1SendingEnd -> AssistUsersSSDExecution1StartEnd)
+		ReturnMessage::AssistUsersSSDCallMessage1Return(AssistUsersSSDExecution1FinishEnd -> AssistUsersSSDCallMessage1ReturnReceivingEnd AssistUsersSSDCallMessage1)
+		CallMessage::AssistUsersSSDCallMessage3(caseDetails AssistUsersSSDCallMessage3SendingEnd -> AssistUsersSSDExecution2StartEnd)
+		ReturnMessage::AssistUsersSSDCallMessage3Return(AssistUsersSSDExecution2FinishEnd -> AssistUsersSSDCallMessage3ReturnReceivingEnd AssistUsersSSDCallMessage3)
+
+		Execution::AssistUsersSSDExecution1(AssistUsersService AssistUsersSSDExecution1StartEnd AssistUsersSSDExecution1FinishEnd)
+		Execution::AssistUsersSSDExecution2(AssistUsersService AssistUsersSSDExecution2StartEnd AssistUsersSSDExecution2FinishEnd)
+
+		MessageEnd::AssistUsersSSDCallMessage1SendingEnd(SupportAgent AssistUsersSSDCallMessage1)
+		ExecutionEnd::AssistUsersSSDExecution1StartEnd(AssistUsersService AssistUsersSSDExecution1)
+		ExecutionEnd::AssistUsersSSDExecution1FinishEnd(AssistUsersService AssistUsersSSDExecution1)
+		MessageEnd::AssistUsersSSDCallMessage1ReturnReceivingEnd(SupportAgent AssistUsersSSDCallMessage1Return)
+		MessageEnd::AssistUsersSSDCallMessage3SendingEnd(SupportAgent AssistUsersSSDCallMessage3)
+		ExecutionEnd::AssistUsersSSDExecution2StartEnd(AssistUsersService AssistUsersSSDExecution2)
+		ExecutionEnd::AssistUsersSSDExecution2FinishEnd(AssistUsersService AssistUsersSSDExecution2)
+		MessageEnd::AssistUsersSSDCallMessage3ReturnReceivingEnd(SupportAgent AssistUsersSSDCallMessage3Return)
+
+	}
+
+	Service ExcursionBookingSystem {} Service ThirdPartyServices {}
+
+	Service SearchExcursionsService {
+
+		[Operation]
+		dateFrom()
+		search(dateFrom, dateTo, destination, noTravelers)
+
+	}
+
+	Service ComparePricesService {
+
+		[Operation]
+		choosenExcursions(exc1_ID, exc2_ID, exc3_ID)
+		compare(exc1_Details, exc1_Pricing, exc2_Details, exc2_Pricing, exc3_Details, exc3_Pricing)
+
+	}
+
+	Service UserBookingService {
+
+		[Operation]
+		userFinalizeBooking(excursionID, bookingDetails)
+		userFinalizePayment(cardDetails, totalAmount)
+
+	}
+
+	Service GetConfirmationsService {
+
+		[Operation]
+		getConfirmations(bookingID, confirmationDetails)
+		reminderEmail(confirmationDetails, userEmail)
+
+	}
+
+	Service AgentBookingService {
+
+		[Operation]
+		agentBook(bookingDetails, availabilityResults, quoteRecommendations, confirmationDetails)
+
+	}
+
+	Service PromoteOffersService {
+
+		[Operation]
+		offer(travelOffers, commissionDetails)
+
+	}
+
+	Service MonitorBookingsService {
+
+		[Operation]
+		bookingReports(noBookingsConfrimed)
+		revenueReports(noBookingsConfirmed, income, expenses)
+		trafficReports(noVisitors, noSearches)
+
+	}
+
+	Service AssistUsersService {
+
+		[Operation]
+		callerDetails(userDetails, bookingDetails)
+		caseDetails(modificationDetails, confirmationDetails)
+
+	}
+
+}
+DomainModel ExcursionBooking {
+
+	Entity User {
+		UserID : String
+		UserPassword : String
+		UserEmail : String
+	}
+
+	Entity TravelAgent {
+		TravelAgentID : String
+		TravelAgentPassword : String
+		TravelAgentEmail : String
+	}
+
+	Entity AffiliatePartner {
+		AffiliateID : String
+		AffiliatePassword : String
+		AffiliateEmail : String
+	}
+
+}
+
