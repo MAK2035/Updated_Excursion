@@ -71,3 +71,13 @@ The class diagram shows the main entities and their relationships.
 * The search feature needs to support more flexible date filters and ranges to accommodate different trip lengths.
 * Price comparisons are currently limited to 3 excursions. Allowing more would improve decision making.
 * Notifications rely on external email/SMS providers. Delivery delays outside of the system's control can impact the user experience.
+
+## Lab 3
+<img width="959" alt="readme1" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/fc18a67b-5eb3-4bac-9855-9cadcc08c552">
+<img width="960" alt="readme2" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/9cb81ec2-94a5-4396-a4ad-b8256c485d2e">
+<img width="959" alt="readme3" src="https://github.com/MAK2035/Updated_Excursion/assets/148695360/0ba02c13-d063-4beb-87d9-e63fa001981e">
+
+
+
+
+
